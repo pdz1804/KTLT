@@ -1,0 +1,103 @@
+HP Ulti: 5000
+knight type 0 knight hp 601 level 10
+HP Ulti: 4640
+knight type 0 knight hp 991 level 5
+HP Ulti: 4343
+knight type 0 knight hp 857 level 2
+HP Ulti: 4241
+knight type 0 knight hp 359 level 3
+HP Ulti: 4177
+knight type 0 knight hp 653 level 3
+HP Ulti: 4060
+knight type 0 knight hp 149 level 5
+HP Ulti: 4016
+knight type 0 knight hp 769 level 4
+HP Ulti: 3832
+knight type 0 knight hp 7 level 1
+HP Ulti: 3832
+knight type 0 knight hp 673 level 1
+HP Ulti: 3792
+knight type 0 knight hp 41 level 5
+HP Ulti: 3780
+knight type 2 knight hp 534 level 4
+HP Ulti: 3620
+knight type 0 knight hp 601 level 4
+HP Ulti: 3476
+knight type 0 knight hp 269 level 5
+HP Ulti: 3396
+knight type 0 knight hp 613 level 5
+HP Ulti: 3213
+knight type 0 knight hp 173 level 5
+HP Ulti: 3162
+knight type 0 knight hp 967 level 5
+HP Ulti: 2872
+knight type 2 knight hp 345 level 1
+HP Ulti: 2847
+knight type 0 knight hp 103 level 3
+HP Ulti: 2829
+knight type 0 knight hp 541 level 4
+HP Ulti: 2700
+knight type 0 knight hp 41 level 5
+HP Ulti: 2688
+knight type 0 knight hp 971 level 3
+HP Ulti: 2514
+knight type 0 knight hp 73 level 4
+HP Ulti: 2497
+knight type 0 knight hp 89 level 5
+HP Ulti: 2471
+knight type 0 knight hp 541 level 5
+HP Ulti: 2309
+knight type 0 knight hp 811 level 5
+HP Ulti: 2066
+knight type 0 knight hp 571 level 1
+HP Ulti: 2032
+knight type 0 knight hp 353 level 5
+HP Ulti: 1927
+knight type 0 knight hp 269 level 4
+HP Ulti: 1863
+knight type 0 knight hp 727 level 5
+HP Ulti: 1645
+knight type 0 knight hp 11 level 4
+HP Ulti: 1643
+knight type 0 knight hp 757 level 3
+HP Ulti: 1507
+knight type 0 knight hp 587 level 1
+HP Ulti: 1472
+knight type 0 knight hp 937 level 4
+HP Ulti: 1248
+knight type 0 knight hp 449 level 3
+HP Ulti: 1168
+knight type 0 knight hp 881 level 3
+HP Ulti: 1010
+knight type 0 knight hp 593 level 1
+HP Ulti: 975
+knight type 0 knight hp 157 level 1
+HP Ulti: 966
+knight type 0 knight hp 313 level 1
+HP Ulti: 948
+knight type 0 knight hp 877 level 5
+HP Ulti: 685
+knight type 0 knight hp 61 level 4
+HP Ulti: 671
+knight type 0 knight hp 37 level 4
+HP Ulti: 663
+knight type 0 knight hp 607 level 3
+HP Ulti: 554
+knight type 0 knight hp 421 level 4
+HP Ulti: 453
+knight type 0 knight hp 107 level 4
+HP Ulti: 428
+knight type 0 knight hp 101 level 2
+HP Ulti: 416
+knight type 0 knight hp 599 level 4
+HP Ulti: 273
+knight type 0 knight hp 199 level 5
+HP Ulti: 214
+knight type 0 knight hp 271 level 3
+HP Ulti: 166
+knight type 0 knight hp 419 level 5
+HP Ulti: 41
+knight type 0 knight hp 61 level 4
+HP Ulti: 27
+knight type 0 knight hp 397 level 3
+HP Ulti: -44

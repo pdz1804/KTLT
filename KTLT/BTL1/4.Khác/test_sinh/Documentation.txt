@@ -1,0 +1,37 @@
+Bước 1: chuẩn bị 2 code của 2 người, bao gồm phần freopen vào 2 code
+
+// code 1
+void adventureToKoopa()
+{
+	freopen("test.out", "w", stdout);
+	...
+}
+
+// code 2
+void adventureToKoopa()
+{
+	freopen("test.ans", "w", stdout);
+	...
+}
+
+
+Bước 2: compile 2 code vào main.exe main2.exe
+
+g++ -g -o main main.cpp knight1.cpp -I . -std=c++11
+g++ -g -o main2 main2.cpp knight2.cpp -I . -std=c++11
+
+
+Bước 3: chỉnh sửa contraint của code driver tùy ý: số test, số event, limit của các item,....
+
+Bước 4: compile code driver
+g++ -g -o driver driver.cpp -I . -std=c++11
+
+Bước 5: chạy code driver
+./driver.exe
+
+
+
+
+
+
+

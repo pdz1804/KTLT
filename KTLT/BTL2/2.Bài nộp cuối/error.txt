@@ -1,0 +1,72 @@
+==152== Mismatched free() / delete / delete []
+==152==    at 0x483CFBF: operator delete(void*) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==152==    by 0x10BC70: Events::~Events() (knight2.cpp:80)
+==152==    by 0x1117E7: KnightAdventure::~KnightAdventure() (knight2.cpp:1547)
+==152==    by 0x10B8DD: main (main.cpp:24)
+==152==  Address 0x4e1f7c0 is 0 bytes inside a block of size 4,000 alloc'd
+==152==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==152==    by 0x10BB80: Events::Events(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (knight2.cpp:70)
+==152==    by 0x11182A: KnightAdventure::loadEvents(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (knight2.cpp:1552)
+==152==    by 0x10B8C0: main (main.cpp:21)
+==152==
+==152== 
+==152== HEAP SUMMARY:
+==152==     in use at exit: 96,000 bytes in 2,000 blocks
+==152==   total heap usage: 11,834 allocs, 9,834 frees, 1,270,184 bytes allocated
+==152==
+==152== 64 bytes in 2 blocks are definitely lost in loss record 1 of 5
+==152==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==152==    by 0x10BDD8: BaseKnight::create(int, int, int, int, int, int) (knight2.cpp:118)
+==152==    by 0x10EDAD: ArmyKnights::ArmyKnights(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (knight2.cpp:838)
+==152==    by 0x11188A: KnightAdventure::loadArmyKnights(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (knight2.cpp:1557)
+==152==    by 0x10B8AD: main (main.cpp:20)
+==152==
+==152== 224 bytes in 7 blocks are definitely lost in loss record 2 of 5
+==152==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==152==    by 0x10BE54: BaseKnight::create(int, int, int, int, int, int) (knight2.cpp:123)
+==152==    by 0x10EDAD: ArmyKnights::ArmyKnights(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (knight2.cpp:838)
+==152==    by 0x11188A: KnightAdventure::loadArmyKnights(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (knight2.cpp:1557)
+==152==    by 0x10B8AD: main (main.cpp:20)
+==152==
+==152== 4,768 bytes in 149 blocks are definitely lost in loss record 3 of 5
+==152==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==152==    by 0x10BD5C: BaseKnight::create(int, int, int, int, int, int) (knight2.cpp:113)
+==152==    by 0x10EDAD: ArmyKnights::ArmyKnights(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (knight2.cpp:838)
+==152==    by 0x11188A: KnightAdventure::loadArmyKnights(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (knight2.cpp:1557)
+==152==    by 0x10B8AD: main (main.cpp:20)
+==152==
+==152== 26,944 bytes in 842 blocks are definitely lost in loss record 4 of 5
+==152==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==152==    by 0x10BEBF: BaseKnight::create(int, int, int, int, int, int) (knight2.cpp:128)
+==152==    by 0x10EDAD: ArmyKnights::ArmyKnights(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (knight2.cpp:838)
+==152==    by 0x11188A: KnightAdventure::loadArmyKnights(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (knight2.cpp:1557)
+==152==    by 0x10B8AD: main (main.cpp:20)
+==152==
+==152== 64,000 bytes in 1,000 blocks are definitely lost in loss record 5 of 5
+==152==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==152==    by 0x10ED5A: ArmyKnights::ArmyKnights(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (knight2.cpp:837)
+==152==    by 0x11188A: KnightAdventure::loadArmyKnights(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (knight2.cpp:1557)
+==152==    by 0x10B8AD: main (main.cpp:20)
+==152==
+==152== LEAK SUMMARY:
+==152==    definitely lost: 96,000 bytes in 2,000 blocks
+==152==    indirectly lost: 0 bytes in 0 blocks
+==152==      possibly lost: 0 bytes in 0 blocks
+==152==    still reachable: 0 bytes in 0 blocks
+==152==         suppressed: 0 bytes in 0 blocks
+==152==
+==152== ERROR SUMMARY: 6 errors from 6 contexts (suppressed: 0 from 0)
+==152==
+==152== 1 errors in context 1 of 6:
+==152== Mismatched free() / delete / delete []
+==152==    at 0x483CFBF: operator delete(void*) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==152==    by 0x10BC70: Events::~Events() (knight2.cpp:80)
+==152==    by 0x1117E7: KnightAdventure::~KnightAdventure() (knight2.cpp:1547)
+==152==    by 0x10B8DD: main (main.cpp:24)
+==152==  Address 0x4e1f7c0 is 0 bytes inside a block of size 4,000 alloc'd
+==152==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==152==    by 0x10BB80: Events::Events(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (knight2.cpp:70)
+==152==    by 0x11182A: KnightAdventure::loadEvents(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (knight2.cpp:1552)
+==152==    by 0x10B8C0: main (main.cpp:21)
+==152==
+==152== ERROR SUMMARY: 6 errors from 6 contexts (suppressed: 0 from 0)

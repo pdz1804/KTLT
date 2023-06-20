@@ -1,0 +1,5 @@
+- sau biến đổi hp là snt thì vãn -> snt gần nhất (mô tả 11)
+- vua arthur vẫn bị trừ và vẫn phải display hp sau mỗi sự kiện
+- chỉ in chỉ số hiệp sĩ sau khi sự kiện 13 kết thúc hoàn toàn (hp < 0 hay đã gặp hết nấm)
+- dù số lượng thuốc đã tối đa nhưng vẫn mất lượt lấy thuốc
+- nếu cứu đc công chúa trong khi vẫn tí hon hay ếch thì vẫn in ra thông tin lúc đang bị hiệu ứng

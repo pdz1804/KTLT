@@ -1,0 +1,5 @@
+1. vi du o su kien thu 2, hiep si danh thua ma su kien 5, hp < 0 va co phoenix down, thi co output cai hp < 0 ra xong roi su dung
+phoenixdown khong hay la su dung phoenixdown roi moi output
+
+2. vi du o su kien thu 2, hiep si danh thua va hp < 0, khi output thi o su kien thu 2 do chi output voi rescue = 0 hay output ca output co 
+rescue = -1 truoc
